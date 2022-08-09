@@ -1,2 +1,8 @@
+numpy
+pillow
+tqdm
 earthengine-api
 wget
+pytorch=1.10.0
+torchvision=0.11.1
+scikit-image=0.19.2

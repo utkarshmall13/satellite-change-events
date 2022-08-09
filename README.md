@@ -58,3 +58,14 @@ Alternatively, this data can also be downloaded from the project page.
 
 ---
 ## Baselines
+
+Change the directory to `baselines`.
+Use `main.py` to run different baselines. For example use the following for SimCLR:Change Events :
+> python3 main.py -dn CalFire -mt all -bs 256 -e 20
+
+Change `-dn` to `CaiRoad` to run on CaiRoad dataset.
+Use arguments our of `notime`, `nochange`, `fulldata`, `eurosat`, `imnet` for `-mt` to run other baselines.
+The trained models are stored in a directory named `models`, that can used for inference. 
+For inference use argument `-m infer`.
+
+The reported results can be viewed using this.
